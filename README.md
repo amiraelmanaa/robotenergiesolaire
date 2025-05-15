@@ -1,18 +1,54 @@
-## Getting Started
+# 🤖🌱 Robot de Livraison Écologique
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Présentation
 
-## Folder Structure
+L'objectif principal est de développer une application de gestion de robots de livraison écologiques, en intégrant les concepts clés de la programmation orientée objet (POO) : héritage, interfaces, exceptions, classes abstraites et interfaces graphiques (GUI).
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 👩‍💻 Réalisé par
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Amira El Manaa
+- Groupe : RT2/1
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🧭 Fonctionnalités principales
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Déplacement du robot sur une carte
+- Chargement et livraison de colis
+- Gestion de l’énergie (solaire 🌞 et électrique ⚡)
+- Recharge automatique en fonction de la météo
+- Affichage d’un bilan écologique et d'un historique
+- Interface graphique intuitive pour simuler les actions
+
+---
+
+## 🧱 Architecture du Projet
+
+Le projet est composé de 4 classes principales :
+
+1. Robot (abstraite)
+2. RobotConnecte (abstraite) 
+3. RobotLivraison
+4. **InterfaceRobotEcologique (GUI)**  
+   -integre des classes internes anonymes
+3 classes de gestion des exceptions:
+  1-RobotException
+  2-EnergieInsuffisanteException
+  3-MaintenanceRequiseException
+une interface
+ 
+---
+
+
+
+
+
+
+
+
+
+
+
+
